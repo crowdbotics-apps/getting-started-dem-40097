@@ -5,7 +5,7 @@ import { StyleSheet, SafeAreaView } from "react-native";
 const Untitled1 = () => {
   return <SafeAreaView style={styles.safeArea}>
         
-    <View style={styles.QbpERChc}><ImageBackground style={styles.ZfuTqsxg} source={require("./Runners Background.png")} resizeMode="cover"><ImageBackground style={styles.wqwKpQGP} source={require("./Description.png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.tCvMmNvH} source={require("./Time:Connection:Battery.png")} resizeMode="cover"></ImageBackground></ImageBackground></View></SafeAreaView>;
+    <View style={styles.QbpERChc}><ImageBackground style={styles.ZfuTqsxg} source={require("./Runners Background.png")} resizeMode="cover"><ImageBackground style={styles.wqwKpQGP} source={require("./Description.png")} resizeMode="cover"><View style={styles.MNIqTKZd}></View></ImageBackground><ImageBackground style={styles.BIIbPkax} source={require("./Home Indicator - On Light.png")} resizeMode="cover"></ImageBackground></ImageBackground></View></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
@@ -31,12 +31,22 @@ const styles = StyleSheet.create({
     top: 369,
     left: 51.5
   },
-  tCvMmNvH: {
-    width: 354,
-    height: 27,
+  BIIbPkax: {
+    width: 204,
+    height: 22,
     position: "absolute",
-    left: -6,
-    top: 7
+    left: 75.5,
+    top: 532
+  },
+  MNIqTKZd: {
+    height: 60,
+    width: 247,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777",
+    position: "absolute",
+    left: 2,
+    top: 95
   }
 });
 export default Untitled1;
