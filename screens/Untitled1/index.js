@@ -38,10 +38,10 @@ const styles = StyleSheet.create({
     left: 51.5
   },
   BIIbPkax: {
-    width: 204,
+    width: 240,
     height: 22,
     position: "absolute",
-    left: 75.5,
+    left: 57.5,
     top: 532
   },
   MNIqTKZd: {
