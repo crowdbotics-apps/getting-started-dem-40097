@@ -1,3 +1,5 @@
+import { useNavigation } from "@react-navigation/native";
+import { Pressable } from "react-native";
 import { TextInput } from "react-native";
 import { Text } from "react-native";
 import { ImageBackground } from "react-native";
@@ -5,9 +7,12 @@ import { View } from "react-native";
 import { StyleSheet, SafeAreaView } from "react-native";
 
 const Untitled2 = () => {
+  const navigation = useNavigation();
   return <SafeAreaView style={styles.safeArea}>
 
-    <View style={styles.DfOFPAIj}><ImageBackground style={styles.qcQLHGBM} source={require("./Logo.png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.vlkharVG} source={require("./Inputs.png")} resizeMode="cover"><TextInput style={styles.yJZzSaNW} placeholder="name@email.com" placeholderTextColor="#fffafa"></TextInput><ImageBackground style={styles.QaZHUVnx} source={require("./Buttons.png")} resizeMode="cover"></ImageBackground></ImageBackground><Text style={styles.VISDeSxo}>Log In</Text><ImageBackground style={styles.zEPIOpvy} source={require("./Social Media Buttons.png")} resizeMode="cover"></ImageBackground></View><TextInput style={styles.SCXNETpx} placeholder="Password" placeholderTextColor="#B1B1B1"></TextInput><ImageBackground style={styles.nnzYMeKR} source={require("./Home Indicator - On Light.png")}></ImageBackground></SafeAreaView>;
+    <View style={styles.DfOFPAIj}><ImageBackground style={styles.qcQLHGBM} source={require("./Logo.png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.vlkharVG} source={require("./Inputs.png")} resizeMode="cover"><TextInput style={styles.yJZzSaNW} placeholder="name@email.com" placeholderTextColor="#fffafa"></TextInput><Pressable onPress={() => {
+          navigation.navigate("Untitled3");
+        }}><ImageBackground style={styles.QaZHUVnx} source={require("./Buttons.png")} resizeMode="cover"></ImageBackground></Pressable></ImageBackground><Text style={styles.VISDeSxo}>Log In</Text><ImageBackground style={styles.zEPIOpvy} source={require("./Social Media Buttons.png")} resizeMode="cover"></ImageBackground></View><TextInput style={styles.SCXNETpx} placeholder="Password" placeholderTextColor="#B1B1B1"></TextInput><ImageBackground style={styles.nnzYMeKR} source={require("./Home Indicator - On Light.png")}></ImageBackground></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
