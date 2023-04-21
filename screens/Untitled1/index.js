@@ -1,12 +1,17 @@
+import { useNavigation } from "@react-navigation/native";
+import { Pressable } from "react-native";
 import { Text } from "react-native";
 import { ImageBackground } from "react-native";
 import { View } from "react-native";
 import { StyleSheet, SafeAreaView } from "react-native";
 
 const Untitled1 = () => {
+  const navigation = useNavigation();
   return <SafeAreaView style={styles.safeArea}>
         
-    <View style={styles.QbpERChc}><ImageBackground style={styles.ZfuTqsxg} source={require("./Runners Background.png")} resizeMode="cover"><ImageBackground style={styles.wqwKpQGP} source={require("./Description.png")} resizeMode="cover"><View style={styles.MNIqTKZd}></View></ImageBackground><ImageBackground style={styles.BIIbPkax} source={require("./Home Indicator - On Light.png")} resizeMode="cover"></ImageBackground><Text style={styles.EmfEkjec}>Get Started</Text></ImageBackground></View></SafeAreaView>;
+    <View style={styles.QbpERChc}><Pressable onPress={() => {
+        navigation.navigate("Untitled2");
+      }}><ImageBackground style={styles.ZfuTqsxg} source={require("./Runners Background.png")} resizeMode="cover"><ImageBackground style={styles.wqwKpQGP} source={require("./Description.png")} resizeMode="cover"><View style={styles.MNIqTKZd}></View></ImageBackground><ImageBackground style={styles.BIIbPkax} source={require("./Home Indicator - On Light.png")} resizeMode="cover"></ImageBackground><Text style={styles.EmfEkjec}>Get Started</Text></ImageBackground></Pressable></View></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
