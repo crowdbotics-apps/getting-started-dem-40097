@@ -7,7 +7,7 @@ import { StyleSheet, SafeAreaView } from "react-native";
 const Untitled2 = () => {
   return <SafeAreaView style={styles.safeArea}>
 
-    <View style={styles.DfOFPAIj}><ImageBackground style={styles.qcQLHGBM} source={require("./Logo.png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.vlkharVG} source={require("./Inputs.png")} resizeMode="cover"><TextInput style={styles.yJZzSaNW} placeholder="name@email.com" placeholderTextColor="#fffafa"></TextInput></ImageBackground><Text style={styles.VISDeSxo}>Log In</Text></View></SafeAreaView>;
+    <View style={styles.DfOFPAIj}><ImageBackground style={styles.qcQLHGBM} source={require("./Logo.png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.vlkharVG} source={require("./Inputs.png")} resizeMode="cover"><TextInput style={styles.yJZzSaNW} placeholder="name@email.com" placeholderTextColor="#fffafa"></TextInput></ImageBackground><Text style={styles.VISDeSxo}>Log In</Text></View><TextInput style={styles.SCXNETpx} placeholder="Password" placeholderTextColor="#B1B1B1"></TextInput></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
@@ -55,6 +55,16 @@ const styles = StyleSheet.create({
     position: "absolute",
     left: 22,
     top: 16,
+    color: "#ffffff"
+  },
+  SCXNETpx: {
+    backgroundColor: "#2F3C50",
+    borderColor: "#cccccc",
+    width: 150,
+    height: 30,
+    position: "absolute",
+    left: 30,
+    top: 308,
     color: "#ffffff"
   }
 });
