@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
   yJZzSaNW: {
     backgroundColor: "#2F3C50",
     borderColor: "#cccccc",
-    width: 150,
+    width: 294,
     height: 30,
     position: "absolute",
     left: 22,
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
   SCXNETpx: {
     backgroundColor: "#2F3C50",
     borderColor: "#cccccc",
-    width: 150,
+    width: 305,
     height: 30,
     position: "absolute",
     left: 30,
