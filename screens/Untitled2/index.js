@@ -1,3 +1,4 @@
+import { TextInput } from "react-native";
 import { Text } from "react-native";
 import { ImageBackground } from "react-native";
 import { View } from "react-native";
@@ -6,7 +7,7 @@ import { StyleSheet, SafeAreaView } from "react-native";
 const Untitled2 = () => {
   return <SafeAreaView style={styles.safeArea}>
 
-    <View style={styles.DfOFPAIj}><ImageBackground style={styles.qcQLHGBM} source={require("./Logo.png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.vlkharVG} source={require("./Inputs.png")} resizeMode="cover"></ImageBackground><Text style={styles.VISDeSxo}>Log In</Text></View></SafeAreaView>;
+    <View style={styles.DfOFPAIj}><ImageBackground style={styles.qcQLHGBM} source={require("./Logo.png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.vlkharVG} source={require("./Inputs.png")} resizeMode="cover"><TextInput style={styles.yJZzSaNW} placeholder="name@email.com" placeholderTextColor="#fffafa"></TextInput></ImageBackground><Text style={styles.VISDeSxo}>Log In</Text></View></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
@@ -45,6 +46,16 @@ const styles = StyleSheet.create({
     top: 184,
     color: "#ffffff",
     textAlign: "center"
+  },
+  yJZzSaNW: {
+    backgroundColor: "#2F3C50",
+    borderColor: "#cccccc",
+    width: 150,
+    height: 30,
+    position: "absolute",
+    left: 22,
+    top: 16,
+    color: "#ffffff"
   }
 });
 export default Untitled2;
