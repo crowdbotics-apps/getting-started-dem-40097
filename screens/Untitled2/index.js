@@ -94,11 +94,11 @@ const styles = StyleSheet.create({
     top: 183
   },
   Lqtvdzyu: {
-    width: 161,
-    height: 16,
+    width: 185,
+    height: 20,
     position: "absolute",
-    left: 186,
-    top: 523
+    left: 86,
+    top: 519
   }
 });
 export default Untitled2;
