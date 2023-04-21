@@ -50,13 +50,13 @@ const styles = StyleSheet.create({
     top: 95
   },
   EmfEkjec: {
-    width: 158,
+    width: 236,
     height: 61,
     lineHeight: 60,
     fontSize: 20,
     borderRadius: 0,
     position: "absolute",
-    left: 98.5,
+    left: 57,
     top: 464,
     fontWeight: "700",
     color: "#ffffff",
