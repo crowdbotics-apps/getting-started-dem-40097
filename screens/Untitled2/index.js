@@ -12,7 +12,7 @@ const Untitled2 = () => {
 
     <View style={styles.DfOFPAIj}><ImageBackground style={styles.qcQLHGBM} source={require("./Logo.png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.vlkharVG} source={require("./Inputs.png")} resizeMode="cover"><TextInput style={styles.yJZzSaNW} placeholder="name@email.com" placeholderTextColor="#fffafa"></TextInput><Pressable onPress={() => {
           navigation.navigate("Untitled3");
-        }}><ImageBackground style={styles.QaZHUVnx} source={require("./Buttons.png")} resizeMode="cover"></ImageBackground></Pressable></ImageBackground><Text style={styles.VISDeSxo}>Log In</Text><ImageBackground style={styles.zEPIOpvy} source={require("./Social Media Buttons.png")} resizeMode="cover"></ImageBackground></View><TextInput style={styles.SCXNETpx} placeholder="Password" placeholderTextColor="#B1B1B1"></TextInput><ImageBackground style={styles.nnzYMeKR} source={require("./Home Indicator - On Light.png")}></ImageBackground></SafeAreaView>;
+        }}><ImageBackground style={styles.QaZHUVnx} source={require("./Buttons.png")} resizeMode="cover"></ImageBackground></Pressable></ImageBackground><Text style={styles.VISDeSxo}>Log In</Text><ImageBackground style={styles.zEPIOpvy} source={require("./Social Media Buttons.png")} resizeMode="cover"></ImageBackground><ImageBackground style={styles.Lqtvdzyu} source={require("./Headline 2.png")} resizeMode="cover"></ImageBackground></View><TextInput style={styles.SCXNETpx} placeholder="Password" placeholderTextColor="#B1B1B1"></TextInput><ImageBackground style={styles.nnzYMeKR} source={require("./Home Indicator - On Light.png")}></ImageBackground></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
@@ -76,8 +76,8 @@ const styles = StyleSheet.create({
     width: 348,
     height: 65,
     position: "absolute",
-    left: 4.5,
-    top: 461
+    left: 3,
+    top: 447
   },
   nnzYMeKR: {
     width: 240,
@@ -92,6 +92,13 @@ const styles = StyleSheet.create({
     position: "absolute",
     left: -7.5,
     top: 183
+  },
+  Lqtvdzyu: {
+    width: 161,
+    height: 16,
+    position: "absolute",
+    left: 186,
+    top: 523
   }
 });
 export default Untitled2;
